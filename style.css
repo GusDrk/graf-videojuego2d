@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('fondo.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #00bfff;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+#click-counter {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 2px solid white;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h2, footer h3 {
+    margin: 10px 0;
+    color: #ffcc00;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
